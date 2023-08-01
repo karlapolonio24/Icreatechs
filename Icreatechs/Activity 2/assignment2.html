@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Forms Assignment</title>
+  <link rel="stylesheet" href="styles/styles2.css">
+</head>
+<body>
+  <!-- First Form -->
+  <h1>Contact Us</h1>
+  <form action="#" method="POST">
+    <div>
+      <label>Name:</label>
+      <input type="text">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email">
+    </div>
+
+    <div>
+      <label for="message">Message:</label>
+      <textarea rows="4"></textarea>
+    </div>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+  <div class="line"></div> <!-- Line -->
+
+  <!-- Login Form -->
+  <h1>Login</h1>
+  <form action="#" method="POST">
+    <div>
+      <label>Username:</label>
+      <input type="text">
+    </div>
+
+    <div>
+      <label>Password:</label>
+      <input type="password">
+    </div>
+    <input type="submit" value="Login">
+  </form>
+
+  <div class="line"></div> <!-- Line -->
+
+  <!-- Survey Form -->
+  <h1>Survey</h1>
+  <form>
+    <div>
+      <label>Name:</label>
+      <input type="text">
+    </div>
+
+    <div>
+      <label>Age:</label>
+      <input type="number">
+    </div>
+
+    <div>
+      <label>Gender:</label><br>
+      <label>
+        <input type="radio" name="gender" value="male">
+        Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female">
+        Female
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female">
+        Other
+      </label>
+      <br><br>
+    </div>
+
+    <div>
+      <label>Which programming languages do you know?</label><br>
+      <label for="javascript">
+        <input type="checkbox" id="javascript">
+        Javascript
+      </label>
+      <label for="javascript">
+        <input type="checkbox" id="javascript">
+        Python
+      </label>
+      <label for="javascript">
+        <input type="checkbox" id="javascript">
+        Java
+      </label>
+      <label for="javascript">
+        <input type="checkbox" id="javascript">
+        C++
+      </label>
+      <label for="javascript">
+        <input type="checkbox" id="javascript">
+        PHP
+      </label><br>
+    </div>
+    <div>
+      <label>Comments:</label>
+      <textarea></textarea>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
